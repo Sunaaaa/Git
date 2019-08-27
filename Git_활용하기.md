@@ -322,6 +322,9 @@ https://opentutorials.org/course/2708
 - 반드시 하나의 branch에 속하게 되어 있다. 
 
   - master : 시작하면 기본적으로 생성
+  - HEAD
+    - 현재 체크아웃된 커밋
+    - 현재 작업중인 커밋
 
 - http://git-school.github.io/visualizing-git/
 
@@ -592,3 +595,9 @@ https://opentutorials.org/course/2708
     - 주석 & 함수 둘다 선택해서 merge 수행 시 상태
 
       ![1566893340581](https://user-images.githubusercontent.com/39547788/63753207-92f75d80-c8ed-11e9-80a0-31cb208c0774.png)
+
+
+
+### 리베이스 (Rebase)
+
+- 
