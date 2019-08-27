@@ -586,3 +586,9 @@ https://opentutorials.org/course/2708
       - 병합 후 
 
         ![1566888581051](https://user-images.githubusercontent.com/39547788/63751073-94268b80-c8e9-11e9-8578-37721408737c.png)
+
+      <br>
+
+    - 주석 & 함수 둘다 선택해서 merge 수행 시 상태
+
+      ![1566893340581](https://user-images.githubusercontent.com/39547788/63753207-92f75d80-c8ed-11e9-80a0-31cb208c0774.png)
