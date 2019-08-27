@@ -272,7 +272,19 @@ https://opentutorials.org/course/2708
 
   - 올라와 있는 repository를 나에게 복제한다.
 
-    ![1566883814883](https://user-images.githubusercontent.com/39547788/63751031-8ec94100-c8e9-11e9-927f-935f3bf8526c.png)
+    - git clone 
+
+      - 원격 저장소의 복사본을 로컬에 생성할 때 사용한다.
+
+      - 주로, git hub 에서 가져올 때 사용한다.
+
+      - 최초 한번만 실행하면 된다.
+
+        ![1566883814883](https://user-images.githubusercontent.com/39547788/63751031-8ec94100-c8e9-11e9-927f-935f3bf8526c.png)
+
+        <br>
+
+        ![1566903997871](https://user-images.githubusercontent.com/39547788/63766975-559fc980-c907-11e9-97d8-0379e1f23022.png)
 
     <br>
 
@@ -292,11 +304,24 @@ https://opentutorials.org/course/2708
 
     ![1566884070904](https://user-images.githubusercontent.com/39547788/63751034-8f61d780-c8e9-11e9-9241-1744365324b9.png)
 
+    <br>
+
+    ![1566904310768](https://user-images.githubusercontent.com/39547788/63766976-56386000-c907-11e9-9993-e45d31e3966f.png)
+
+  <br>
+
 - 대장님
 
   - 변경된 것을 확인하고 공유 한다.
+
     - git pull origin master
+
+      ![1566904361159](https://user-images.githubusercontent.com/39547788/63766977-56386000-c907-11e9-8c98-6f45d4feb941.png)
+
+    <br>
+
   - 또 add , commit
+
   - git push origin master
 
   <br>
@@ -321,7 +346,8 @@ https://opentutorials.org/course/2708
 
 - 반드시 하나의 branch에 속하게 되어 있다. 
 
-  - master : 시작하면 기본적으로 생성
+- master : 시작하면 기본적으로 생성
+
   - HEAD
     - 현재 체크아웃된 커밋
     - 현재 작업중인 커밋
@@ -601,3 +627,51 @@ https://opentutorials.org/course/2708
 ### 리베이스 (Rebase)
 
 - 
+
+
+
+### HEAD 분리
+
+- git checkout C2
+
+
+
+### 상대 참조 
+
+- 커밋들을 해시로 구분하고 사용하는 것이 어렵고 복잡하다.
+
+- 상대 참조 등장!!
+
+- brach를 옮길 때 사용한다.
+
+  - ^ : 한번에 한 커밋 위로 움직이기
+
+    - master^ : master의 부모
+
+      ```
+      git checkout master^
+      ```
+
+      
+
+    - master^^: master의 조부모
+
+  - ~< num > : 한번에 여러 커밋 위로 움직이기
+
+    - ~[올라가고 싶은 부모의 수]
+
+      ```
+      git checkout HEAD~4
+      
+      ```
+
+  - -f 옵션 : branch를 특정 커밋에 직접적으로 재지정하기
+
+    - 강제로 branch를 HEAD에서 세번 뒤로 옮기기
+
+      ```
+      git branch -f master HEAD~3
+      
+      ```
+
+      
