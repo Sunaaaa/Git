@@ -15,7 +15,7 @@
 - 새로운 폴더 만들고 해당 폴더로 이동
 
   ![1566865899097](https://user-images.githubusercontent.com/39547788/63751004-8a9d2380-c8e9-11e9-9bec-f6726c5d3a4f.png)
-  
+
   <br>
 
 ![1566865924465](https://user-images.githubusercontent.com/39547788/63751005-8a9d2380-c8e9-11e9-8f86-6378dd5392c2.png)
@@ -180,7 +180,7 @@
 
 - git log
 
-  -  Author : commit 한 사람
+  - Author : commit 한 사람
 
   - Commit Hash
 
@@ -320,6 +320,7 @@ https://opentutorials.org/course/2708
 ### git graph
 
 - 반드시 하나의 branch에 속하게 되어 있다. 
+
   - master : 시작하면 기본적으로 생성
 
 - http://git-school.github.io/visualizing-git/
@@ -456,7 +457,7 @@ https://opentutorials.org/course/2708
 
 
 
-- hello.py에 주석 추가
+- comment branch에서 hello.py에 주석 추가
 
   ```
   print("안녕하세요~")
@@ -526,7 +527,7 @@ https://opentutorials.org/course/2708
 
 - 2갈래로 나눠진 것을 합친다.
 
-  - master에서 수행!!!
+  - **<u>반드시 master에서 수행!!!</u>**
 
     ![1566888272037](https://user-images.githubusercontent.com/39547788/63751067-92f55e80-c8e9-11e9-8468-5a4ace32d4f1.png)
 
@@ -576,7 +577,7 @@ https://opentutorials.org/course/2708
 
     - git graph로 병합 전 & 후 살펴보기
 
-      -  병합 전
+      - 병합 전
 
         ![1566888556923](https://user-images.githubusercontent.com/39547788/63751072-94268b80-c8e9-11e9-8bfc-810175816817.png)
 
